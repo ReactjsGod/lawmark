@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="styles-tablet.css"
+      media="screen and (max-width: 810px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles-mobile.css"
+      media="screen and (max-width: 375px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <title>LawMark</title>
+  </head>
+  <body>
+    <!-- Div above the header (visible on tablets and mobile only) -->
+    <div class="above-header">CALL US 24/7 AT <span>123.456.7890</span></div>
+
+    <!--Our Hamburger Menu Button -->
+    <button class="hamburger-menu" id="hamburger-menu">
+      <span class="bar" id="bar1"></span>
+      <span class="bar" id="bar2"></span>
+      <span class="bar" id="bar3"></span>
+    </button>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Practice areas</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="hero-section">
+      <header>
+        <nav>
+          <div>
+            <img src="assets/icons/logo.svg" class="" alt="LOGO" />
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Practice areas</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <div class="content-details">
+          <p>san diego’s</p>
+          <h1>PREMIERE</h1>
+          <p>injury attorneys</p>
+          <button class="btn">free case review</button>
+        </div>
+      </section>
+    </main>
+
+    <section class="case">
+      <div class="case-res-section">
+        <div class="case-step-1">
+          <p>CASE RESULTS</p>
+          <h1 class="gradient-text">We Get Results</h1>
+          <button>See all Result</button>
+        </div>
+        <div class="case-step-2">
+          <div class="slider-container">
+            <div class="slider-inner"></div>
+          </div>
+        </div>
+        <div class="sliderBTNS">
+          <button id="prevBtn">
+            <img
+              class=""
+              src="assets/icons/arrowLeft.svg"
+              alt="arrow"
+            /></button
+          ><button id="nextBtn">
+            <img src="assets/icons/arrow.svg" alt="arrow" />
+          </button>
+        </div>
+      </div>
+      <div class="caseFooter"></div>
+    </section>
+    <section class="services">
+      <div class="pattern"></div>
+      <div id="icons-section">
+        <div>
+          <button>
+            <img src="assets//icons/car.svg" alt="icons" />
+          </button>
+          <span>Car Accedents</span>
+        </div>
+        <div>
+          <button>
+            <img src="assets//icons/dogbit.svg" alt="icons" />
+          </button>
+          <span>Dog Bites</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/boat.svg" alt="icons" />
+          </button>
+          <span>Boating Accidents</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/bike.svg" alt="icons" />
+          </button>
+          <span>Bicycle Accidents</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/scooter.svg" alt="icons" />
+          </button>
+          <span>Motorcycle Bites</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/truck.svg" alt="icons" />
+          </button>
+          <span>Truck Accidents</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/uber.svg" alt="icons" />
+          </button>
+          <span>Uber Accidents</span>
+        </div>
+
+        <div>
+          <button>
+            <img src="assets//icons/slip&fall.svg" alt="icons" />
+          </button>
+          <span>Slip & Fall Accidents</span>
+        </div>
+        <div class="lastUmm">
+          <button>
+            <img src="assets//icons/scooterbroke.svg" alt="icons" />
+          </button>
+          <span>Scooter Accidents</span>
+        </div>
+        <div class="load-more" id="loading-more">
+          <button class="load-more-btn">Load more</button>
+        </div>
+      </div>
+    </section>
+    <section class="why-us">
+      <h1>Why Choose Us</h1>
+      <div>
+        <div class="reasons-container"></div>
+      </div>
+    </section>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
