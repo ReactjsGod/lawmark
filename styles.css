@@ -504,6 +504,7 @@ section.case {
   border: 1px solid #d85172;
   background-color: transparent;
   width: 194px;
+  height: 56px;
   color: white;
 }
 
@@ -590,6 +591,7 @@ section.case {
   text-align: left;
   font-weight: 600;
 }
+
 .slider-Container > div span {
   text-align: center;
   font-size: 40px;
