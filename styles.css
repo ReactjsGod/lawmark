@@ -775,7 +775,7 @@ section.services div div span {
 }
 .single_footer ul li a:hover {
   color: #ff3666;
-  transform: scale(1.25)
+  transform: scale(1.25);
 }
 
 .single_footer_address ul li {
@@ -817,17 +817,17 @@ section.services div div span {
 }
 
 .subscribe__btn {
-    background-color: transparent;
-    border-radius: 0 25px 25px 0;
-    color: #e90101;
-    cursor: pointer;
-    display: block;
-    font-size: 20px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    top: -17px;
-    width: 60px;
+  background-color: transparent;
+  border-radius: 0 25px 25px 0;
+  color: #e90101;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  top: -17px;
+  width: 60px;
 }
 .subscribe__btn i {
   transition: all 0.3s ease 0s;
@@ -878,15 +878,15 @@ button {
   border: 0px;
 }
 .copyright {
-    margin-top: 13px;
-    padding: 10px 0;
-    color: #fff;
-    font-size: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: cente
+  margin-top: 13px;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: cente;
 }
 .copyright a {
   color: #01c7e9;
@@ -1005,6 +1005,9 @@ button {
 @media screen and (min-width: 811px) and (max-width: 1479px) {
   .hero-section {
     height: 465px;
+  }
+  .gradient-text {
+    background-image: linear-gradient(to bottom right, #e6cdff, #b973ff);
   }
   .case-step-1 > h1 {
     font-size: 64px;
@@ -1191,4 +1194,3 @@ button {
     margin: 10px auto;
   }
 }
-
