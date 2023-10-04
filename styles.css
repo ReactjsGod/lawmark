@@ -1006,6 +1006,9 @@ button {
     height: 40px;
     line-height: 40px;
   }
+  .case-card > div span{
+    font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 811px) and (max-width: 1479px) {
