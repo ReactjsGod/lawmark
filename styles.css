@@ -179,6 +179,10 @@
   }
 }
 
+.copyright-container{
+  width: 100vw;
+}
+
 @media screen and (min-width: 1480px) {
   .hero-section {
     height: 872px;
@@ -896,6 +900,8 @@ button {
   color: #ff3666;
 }
 
+
+
 /* Adjust styles for mobile view */
 @media screen and (max-width: 810px) {
   .show-mobile-nav {
@@ -1090,12 +1096,17 @@ button {
   }
   .footer .container {
     justify-content: space-around;
-    flex-wrap: wrap;
     column-gap: 20px;
     text-align: center;
+    flex-direction: column;
   }
   .single_footer h4::after {
     margin: 10px auto;
+  }
+  div.footer-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   }
 }
 
@@ -1193,4 +1204,9 @@ button {
   .single_footer h4::after {
     margin: 10px auto;
   }
+  div.footer-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    }
 }
